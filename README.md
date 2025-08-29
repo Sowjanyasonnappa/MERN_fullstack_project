@@ -2,7 +2,7 @@ Project Description
 
 This project is a frontend React application that implements user authentication (Register & Login) with form handling, API integration, and clean UI styling.
 
-🔹 Features
+**Features**
 
 Navigation Bar
 
