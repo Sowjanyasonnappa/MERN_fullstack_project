@@ -1,4 +1,61 @@
+Project Description
 
+This project is a frontend React application that implements user authentication (Register & Login) with form handling, API integration, and clean UI styling.
+
+🔹 Features
+
+Navigation Bar
+
+A simple navbar with links to Register and Login pages.
+
+Styled using CSS with hover effects.
+
+Register Page (Register.js)
+
+Contains a form with Email and Password input fields.
+
+On form submission, it sends a POST request to the backend API (/auth/register) using Axios.
+
+Displays success or error messages dynamically.
+
+Login Page (Login.js)
+
+Contains a form with Email and Password input fields.
+
+On submission, sends a POST request to backend API (/auth/login).
+
+If login is successful, the JWT token received from backend is stored in localStorage.
+
+Displays Login success/error message to the user.
+
+Frontend Styling
+
+CSS files (App.css, Login.css, Register.css) are used to style each page.
+
+Forms are centered on the page with a card-style layout (white background, rounded corners, shadow).
+
+Buttons are styled with colors (blue for login, green for register) and hover effects.
+
+Folder Structure
+
+src/
+├── App.js        # Handles navigation & routes
+├── Login.js      # Login form component
+├── Register.js   # Register form component
+├── App.css       # Navbar styling
+├── Login.css     # Login form styling
+├── Register.css  # Register form styling
+└── index.js      # React entry point
+
+Flow of Application
+
+User opens app → sees Navbar.
+
+User clicks Register → fills out email & password → sends data to backend → gets message (“Registered successfully” / error).
+
+User clicks Login → enters credentials → if valid, gets token stored in localStorage.
+
+Login message shown → later this token can be used to access protected routes like Dashboard.
 ### 1. **Backend (Express + MongoDB + JWT)**
 
 * You created an **authentication backend** using **Express**.
