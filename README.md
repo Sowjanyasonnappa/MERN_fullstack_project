@@ -36,7 +36,7 @@ Forms are centered on the page with a card-style layout (white background, round
 
 Buttons are styled with colors (blue for login, green for register) and hover effects.
 
-Folder Structure
+**Folder Structure**
 
 src/
 ├── App.js        # Handles navigation & routes
@@ -47,7 +47,7 @@ src/
 ├── Register.css  # Register form styling
 └── index.js      # React entry point
 
-Flow of Application
+**Flow of Application**
 
 User opens app → sees Navbar.
 
